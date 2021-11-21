@@ -86,7 +86,7 @@ def random_mini_batches(image, label, mini_batch_size=256, one_batch=False):
 
 # gets the configuration
 def get_parser():
-    parser = argparse.ArgumentParser(description='Assignment 2')
+    parser = argparse.ArgumentParser(description='Classifier')
     parser.add_argument('--config', type=str, default='config.yaml', help='config file')
     parser.add_argument('opts', default=None, nargs=argparse.REMAINDER)
     args = parser.parse_args()
